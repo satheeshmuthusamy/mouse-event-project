@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    /* padding: 0px; */
+    margin: 0%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: #F7F5F2;
+    font-family: cursive;
+}
+
+.mouse_event{
+border: 2px solid #F56D91 ;
+margin: 20px;
+height: 120px;
+font-size: 20px;
+width: 150%;
+padding: 25px;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    width: 600px;
+}
+
+@media(max-width:500px){
+    .container{
+        flex-direction: column;
+    }
+}
